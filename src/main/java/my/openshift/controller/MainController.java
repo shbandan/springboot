@@ -1,4 +1,4 @@
-package lu.lllc.boottest.controller;
+package my.openshift.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +8,6 @@ public class MainController {
 	
 	@RequestMapping("/")
 	public String hello(){
-		return "hello";
+		return "Hello Shashi";
 	}
 }
