@@ -8,6 +8,6 @@ public class MainController {
 	
 	@RequestMapping("/")
 	public String hello(){
-		return "Hello Shashi";
+		return "hello";
 	}
 }
